@@ -65,7 +65,7 @@ healthcare-portal/
 └── README.md
 🚀 Installation
 1. Clone Repository
-git clone https://github.com/your-username/healthsync-emr.git
+git clone https://github.com/bhaa1403thi/healthsync-emr.git
 2. Navigate to Project Folder
 cd healthcare-portal
 3. Install Dependencies
