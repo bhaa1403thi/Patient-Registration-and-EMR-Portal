@@ -1,0 +1,39 @@
+{
+  "users": [
+    { "id": "u1", "username": "admin@healthsync.com", "password": "password123", "role": "admin", "name": "System Admin" },
+    { "id": "u2", "username": "doctor@healthsync.com", "password": "password123", "role": "doctor", "name": "Dr. Sarah Jenkins" },
+    { "id": "u3", "username": "patient@healthsync.com", "password": "password123", "role": "patient", "name": "John Doe" }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "name": "John Doe",
+      "email": "patient@healthsync.com",
+      "gender": "Male",
+      "dob": "1990-05-15",
+      "allergies": "Penicillin, Peanuts",
+      "medications": "Lisinopril 10mg, Multivitamin",
+      "emergencyContact": "Jane Doe - 555-0199",
+      "insurance": "BlueCross BC12345678",
+      "assignedDoctorId": "d1",
+      "notes": "Patient reports mild seasonal fatigue. Compliance with hypertension medication is good.",
+      "consent": true
+    }
+  ],
+  "doctors": [
+    { "id": "d1", "name": "Dr. Sarah Jenkins", "specialty": "Cardiology", "email": "doctor@healthsync.com" },
+    { "id": "d2", "name": "Dr. Alex Patel", "specialty": "Pediatrics", "email": "patel@healthsync.com" }
+  ],
+  "appointments": [
+    {
+      "id": "a1",
+      "patientId": "p1",
+      "patientName": "John Doe",
+      "doctorId": "d1",
+      "doctorName": "Dr. Sarah Jenkins",
+      "date": "2026-06-15",
+      "time": "10:30",
+      "status": "pending"
+    }
+  ]
+}
